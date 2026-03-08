@@ -3,10 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arnon AF</title>
+<title>Arnon AF - Portfólio</title>
 
 <style>
-
 :root{
     --olive:#9a2edb;
     --olive-dark:#830cc4;
@@ -31,7 +30,6 @@ header{
     padding:40px 20px;
     text-align:center;
 }
-
 
 header h1{
     font-size:3em;
@@ -85,6 +83,26 @@ h2{
     align-items:center;
     justify-content:center;
     font-size:14px;
+    cursor:pointer;
+    transition: transform 0.2s;
+}
+
+.art:hover{
+    transform: scale(1.05);
+}
+
+.embed-container {
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+    border: 2px solid var(--olive);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    margin: 20px auto;
+}
+
+.embed-container embed {
+    width: 100%;
+    height: 100%;
 }
 
 footer{
@@ -94,54 +112,39 @@ footer{
     color:white;
     margin-top:40px;
 }
-
 </style>
 </head>
 
 <body>
 
 <header>
-<h1>Arnon A. F.</h1>
-<p>Cinema • Trabalhismo • Grotesco • Absurdo</p>
+<h1>Arnon AF</h1>
+<p>Portfólio Artístico</p>
 </header>
 
 <nav>
-<a href="#sobre">Sobre</a>
-<a href="#galeria">Galeria</a>
-<a href="#contato">Contato</a>
+<a href="https://arnonaf.github.io/arnon/">Inicio</a>
+<a href="#sobre">Lorem-Ipsum</a>
 </nav>
 
 <section id="sobre">
-<h2>Sobre</h2>
-<p>
-Arnon A. F., estudante de Direito, técnico em Administração, editor e escritor por hobby.
-Influência na escola de controle mental da realidade e arte, aprendiz do Campo Unificado da Consciência.
-</p>
-</section>
+<h2>Lorem-Ipsum</h2>
 
-<section id="galeria">
-<h2>Galeria</h2>
-
-<div class="gallery">
-
-<div class="art">
-<a href="obra1.html" target="_blank">
-Abrir texto da Lorem-Ipsum
-</a>
-</div><div class="art">Obra 2</div>
-<div class="art">Obra 3</div>
-<div class="art">Obra 4</div>
-
+<div class="embed-container">
+ <embed 
+    src="lorem-ipsum.pdf" 
+    type="application/pdf" 
+    width="100%" 
+    height="600px" 
+/>
 
 </div>
 
 </section>
 
-<section id="contato">
-<h2>Contato</h2>
-<p>Instagram: @arnon_af</p>
-</section>
-
+<footer>
+<p>© 2026 Arnon AF</p>
+</footer>
 
 </body>
 </html>
